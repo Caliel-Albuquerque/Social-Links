@@ -1,0 +1,74 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--body-bg-color);
+    min-height: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    text-align: center;
+    color: var(--purple);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+img{
+    padding: 5px;
+    border-radius: 50%;
+    border: solid 2px var(--purple);
+}
+
+button{
+    width: 100%;
+    background-color: transparent;
+    border: solid 2px var(--purple);
+    color: var(--purple);
+    cursor: pointer;
+    outline: none;
+}
+
+.container{
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.ImageProfile {
+    margin: 10px;
+}
+
+.ContainerLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ContainerLinks button{
+    max-width: 300px;
+    padding: 12px;
+    margin: 12px;
+}
+
+.SocialLinks{
+    cursor: pointer;
+    margin: 10px;
+}
+
+.SocialLinks img{
+    margin: 4px;
+}
